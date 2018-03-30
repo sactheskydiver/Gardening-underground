@@ -1,0 +1,86 @@
+.bold{
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* same as above*/
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+.title{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+#header{
+    background-image: url("/img/urbanFarm.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    padding-bottom: 50px;
+    
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    color: white;
+    font-size: 50; 
+    
+    }
+
+.headerBar{
+    
+    font: bold 25px arial;
+    color: darkgoldenrod;
+    background-color: rgb(80, 52, 1);
+    text-align: center;
+    
+
+}
+.articleHeader{
+    font: bold 25px arial;
+    padding-bottom: 10px;
+
+
+}
+.mainArticalheader{
+    font: bold 25px arial;
+    padding-bottom: 10px;
+    text-align: center
+}
+
+.mainArticle{
+    font: normal 16px arial;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-bottom: 3px solid black;
+    
+    
+    background-color: gray,white;
+}
+.otherArticles{
+    font: normal 14px arial;
+    width: 60%;
+    text-align: left;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+h4{
+    text-align: center;
+}
