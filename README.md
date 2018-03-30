@@ -1,2 +1,2 @@
 # Gardening-underground
-underground gardening website
+underground gardening website using HTML, CSS, BootStrap4, Javascript.
