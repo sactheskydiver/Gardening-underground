@@ -6,8 +6,14 @@
 
 
 
+.nav-item{
+    font-family: Calligraffitti,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 
-/* same as above*/
+}
+
+
 
 .container{
     width: 80%;
@@ -15,19 +21,20 @@
 
 }
 .title{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 100px;
+    font-family: Calligraffitti;
     text-align: center;
 }
 
 
 #header{
-    background-image: url("/img/urbanFarm.jpg");
+    background-image: url("/img/logotemp.jpg");
     background-position: center ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     
 }
 .hero {
@@ -43,8 +50,8 @@
 .headerBar{
     
     font: bold 25px arial;
-    color: darkgoldenrod;
-    background-color: rgb(80, 52, 1);
+    color: rgb(1, 102, 9);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     
 
@@ -52,13 +59,15 @@
 .articleHeader{
     font: bold 25px arial;
     padding-bottom: 10px;
+    text-align: center;
 
 
 }
-.mainArticalheader{
+.mainArticleHeader{
     font: bold 25px arial;
     padding-bottom: 10px;
-    text-align: center
+    text-align: center;
+    font-family: Calligraffitti;
 }
 
 .mainArticle{
@@ -69,12 +78,13 @@
     border-bottom: 3px solid black;
     
     
+    
     background-color: gray,white;
 }
 .otherArticles{
     font: normal 14px arial;
     width: 60%;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid black;
     
 }
